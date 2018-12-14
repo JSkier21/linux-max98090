@@ -5,7 +5,7 @@ ArchLinux repo with Linux kernel patched for better sound support for byt-max980
 
 This is a continuation of the generous work of DuffyDack's ArchLinux repo. 
 
-I try to test this and keep as up to date as possible, but have limited time, please use at ***your own risk***, test, and submit any issues. 
+I try to test this and keep as up to date as possible, but have limited time, please use at ***your own risk***, test, and submit any issues. These files are often based on Arch Core, but sometimes Testing may be used. Should in theory work on other ArchLinux based distros. In any case, keep another known working kernel image installed and available to boot. 
 
 Add the repo to your /etc/pacman.conf
 
