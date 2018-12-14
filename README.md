@@ -21,7 +21,7 @@ Add and sign my key
 
 	sudo pacman -Syu linux-max98090 linux-max98090-headers
 
-Bootloader will need to be configured, and should reference this custom kernel files, linux-max98090. Refence https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader
+Bootloader will need to be configured, and should reference the custom kernel files, linux-max98090. Refence https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader
 
 ## Details
 
