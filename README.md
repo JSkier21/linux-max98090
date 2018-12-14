@@ -14,8 +14,8 @@ Add the repo to your /etc/pacman.conf
 
 Add and sign my key
 
-	sudo pacman-key --recv-keys D06F79ACB2473D56
-	sudo pacman-key --lsign-key D06F79ACB2473D56
+	sudo pacman-key --recv-keys 9B93DC9F02622EC55E008F27D06F79ACB2473D56
+	sudo pacman-key --lsign-key 9B93DC9F02622EC55E008F27D06F79ACB2473D56
 
  Install kernel (headers are optional)
 
