@@ -1,7 +1,7 @@
 # linux-max98090
 ArchLinux repo with Linux kernel patched for better sound support for byt-max98090 devices on some Chromebooks
 
-##Readme
+## Readme
 
 This is a continuation of the generous work of DuffyDack's ArchLinux repo. 
 
@@ -23,7 +23,7 @@ I try to test this and keep as up to date as possible, but have limited time, pl
 
 - Bootloader will need to be configured, and should reference this custom kernel files, linux-max98090. Refence https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader
 
-##Details
+## Details
 
 The latest issue with sound is a regression introduced in 4.18.15, commit [2], broke sound. 
 
