@@ -9,7 +9,7 @@ This is a continuation of the generous work of DuffyDack's ArchLinux repo.
 
 It is recommended to load plbossart's UCM files first: 
 * GitHub: https://github.com/plbossart/UCM
-* AUR: https://github.com/plbossart/UCM
+* AUR: https://aur.archlinux.org/packages/ucm_plbossart-git/
 
 After this, install the kernel, reboot, remove the UCM files (via pacman if Arch based distro), and reboot again. Removing it should allow the volume to work properly and correct itself when opening pavucontrol with a live stream active. If you are missing the device after an update, try this reload / remove cycle again. 
 
