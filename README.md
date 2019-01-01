@@ -5,7 +5,7 @@ ArchLinux repo with Linux kernel patched for better sound support for byt-max980
 
 This is a continuation of the generous work of DuffyDack's ArchLinux repo. 
 
-#### UCM note
+#### UCM & asound
 
 It is recommended to load plbossart's UCM files first: 
 * GitHub: https://github.com/plbossart/UCM
@@ -13,7 +13,7 @@ It is recommended to load plbossart's UCM files first:
 
 After this, install the kernel, reboot, remove the UCM files (via pacman if Arch based distro), and reboot again. Removing it should allow the volume to work properly and correct itself when opening pavucontrol with a live stream active. If you are missing the device after an update, try this reload / remove cycle again. 
 
-Note, headphones don't seem to work without them. Your mileage may vary. Higher volume and more reliability are worth no headphones from the internal port to me (using a USB audio dongle works great for this if needed). 
+Note, headphones don't seem to work without them. Your mileage may vary. Higher volume and more reliability are worth no headphones from the internal port to me (using a USB audio dongle works great for this if needed). UPDATE: DuffyDack is reporting that headphones work for him with asound config. I apparently did not migrate this file after a reinstall. I have not tested this yet myself (he's probably correct), however am including his asound.conf file for use in the repo. 
 
 ***
 
