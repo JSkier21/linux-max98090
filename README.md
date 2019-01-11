@@ -1,5 +1,5 @@
 # linux-max98090
-ArchLinux repo with Linux kernel patched for better sound support for byt-max98090 devices on some Chromebooks
+ArchLinux repo with Linux kernel patched for better sound support for byt-max98090 devices on some Chromebooks. Starting with 4.20.1, packages will be configured for the Toshiba Chromebook2 (Swanky) running ext3, with support for USB sound, some crypto mods, and whatever else people deem worthy. I will leave 4.20, based on the full Arch Linux kernel, up for a little bit. If you would like to include other modules going forward, please post an issue request. Reference the config file posted (thanks to DuffyDack for providing the intiial config) for the config used. 
 
 ## Readme
 
@@ -13,8 +13,7 @@ It is recommended to load plbossart's UCM files first:
 
 After this, install the kernel, reboot, remove the UCM files (via pacman if Arch based distro), and reboot again. Removing it should allow the volume to work properly and correct itself when opening pavucontrol with a live stream active. If you are missing the device after an update, try this reload / remove cycle again. 
 
-Note, headphones don't seem to work without them. Your mileage may vary. Higher volume and more reliability are worth no headphones from the internal port to me (using a USB audio dongle works great for this if needed). UPDATE: DuffyDack is reporting that headphones work for him with asound config. I apparently did not migrate this file after a reinstall. I have not tested this yet myself (he's probably correct), however am including his asound.conf file for use in the repo. 
-
+Note, headphones don't seem to work without UCM (for me; others have not had this problem).
 ***
 
 I try to test this and keep as up to date as possible, but have limited time, please use at ***your own risk***, test, and submit any issues. These files are often based on Arch Core, but sometimes Testing or Staging may be used (mainilne kernel). Should in theory work on other ArchLinux based distros. In any case, keep another known working kernel image installed and available to boot. 
