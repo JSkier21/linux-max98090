@@ -1900,9 +1900,9 @@ CONFIG_NET_FC=y
 # CONFIG_VXLAN is not set
 # CONFIG_MACSEC is not set
 # CONFIG_NETCONSOLE is not set
-# CONFIG_TUN is not set
+CONFIG_TUN=m
 # CONFIG_TUN_VNET_CROSS_LE is not set
-# CONFIG_VETH is not set
+CONFIG_VETH=m
 # CONFIG_NLMON is not set
 # CONFIG_NET_VRF is not set
 # CONFIG_ARCNET is not set
@@ -1914,7 +1914,7 @@ CONFIG_NET_FC=y
 #
 # Distributed Switch Architecture drivers
 #
-CONFIG_ETHERNET=y
+# CONFIG_ETHERNET is not set
 # CONFIG_FDDI is not set
 # CONFIG_HIPPI is not set
 # CONFIG_NET_SB1000 is not set
