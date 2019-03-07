@@ -1,7 +1,8 @@
 # linux-max98090
 ArchLinux repo with Linux kernel patched for better sound support for byt-max98090 devices on some Chromebooks. Starting with 4.20.1, packages will be configured for the Toshiba Chromebook2 (Swanky) running ext2/3/4, with support for USB sound, some crypto mods, and whatever else people deem worthy. 
 
-* Added btrfs support 2-26-19. 
+* Added btrfs support 2-26-19. Removed 3-7-19, no longer needed. 
+* Added bluetooth networking componenets 3-7-19 for hotspot tethering
 
 If you would like to include other modules going forward, please post an issue request. Reference the config file posted (thanks to DuffyDack for providing the intiial config) for the config used. 
 
