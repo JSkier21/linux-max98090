@@ -3,6 +3,7 @@ ArchLinux repo with Linux kernel patched for better sound support for byt-max980
 
 * Added btrfs support 2-26-19. Removed 3-7-19, no longer needed. 
 * Added bluetooth networking componenets 3-7-19 for hotspot tethering
+* Added overlayfs for ram disk stuff 3-18-19
 
 If you would like to include other modules going forward, please post an issue request. Reference the config file posted (thanks to DuffyDack for providing the intiial config) for the config used. 
 
