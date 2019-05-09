@@ -1,3 +1,5 @@
+# 5.1 is in ArchLinux staging, and appears to work for now. This will not be updated until it breaks again. 
+
 # linux-max98090
 ArchLinux repo with Linux kernel patched for better sound support for byt-max98090 devices on some Chromebooks. Starting with 4.20.1, packages will be configured for the Toshiba Chromebook2 (Swanky) running ext2/3/4, with support for USB sound, some crypto mods, and whatever else people deem worthy. 
 
